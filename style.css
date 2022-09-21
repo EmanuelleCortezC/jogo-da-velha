@@ -99,7 +99,8 @@ main.end {
   position: absolute;
 }
 
-.board.o .cell:not(.x):not(.o):hover::before {
+.board.o .cell:not(.x):not(.o):hover::before
+.cell.o::after {
     width: calc(var(--mark-size) * 0.9);
     height: calc(var(--mark-size) * 0.9);
     background-color: white;
